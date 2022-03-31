@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AcquaTec</title>
-
+    <title>AcquaTec | Login </title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <div class="header">
         <div class="container">
             <h1>AcquaTec</h1>
             <ul class="navbar">
-                <li class="agora"><a href="#">Início</a></li>
+                <li><a href="index.html">Início</a></li>
                 <li><a href="#">Simulador</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li class="agora"><a href="#">Login</a></li>
                 <li><a href="#">Cadastro</a></li>
             </ul>
         </div>        
     </div>
     
     <div class="banner">
-        <div class="container">
-            <p>Preservando <b>hoje</b> para existiram <b>amanhã</b>.</p>
+        <div class="container login">
+            <div class="card">
+                <h2>Olá de volta!</h2>
+                <form>
+                    <label for="input_email">E-mail:</label>
+                    <input id="input_email">
+
+                    <label for="input_senha">Senha:</label>
+                    <input type="password" id="input_senha">
+
+                    <button type="button">
+                        Entrar
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
 

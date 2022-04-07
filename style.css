@@ -117,3 +117,37 @@ form button {
     border: 0;
     cursor: pointer;
 }
+
+.imagens {
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .txt_imagem {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Exo 2';
+    font-size: 30px;
+    color: #E6005A;
+}
+
+.txt_conteudo {
+    font-family: 'Exo 2';
+    font-size: 22px;
+    color: #292C34;
+    flex-direction: row;
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
